@@ -1,5 +1,6 @@
 R Examples with Ruby and Python
 
+See http://josepferrandiz.blogspot.com/ for more details.
 The r-*.{py,rb} files contain examples on how perform regressions 
 using rpy2 or rsruby.
 The files can be executed from the command line or using, 
