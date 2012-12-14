@@ -33,8 +33,8 @@ Notes
 1) The data points are of the form:
 Sum_{k=0}^N a_k sin(2 * pi * f_k * t)+ b_k cos(2 * pi * f_k * t) + noise
 The step functions are obtained by taking the ceiling value of each point.
-2) There seems to be a bug in R that makes the pvalues of the parameters be 
-misreported.
+
+
 
 Polynomial Regressions and Predictions
 The r-poly-regs-pred.[py,rb] files perform least squares and/or quantile 
@@ -49,5 +49,6 @@ Configuration
 
 Notes:
 1) There are no graphs available for the polynomial functions.
+
 2) Due to a bug in R we must set the number of prediction points to be larger 
 than the polynomial degree. The code adjusts for that and issues a warning.
